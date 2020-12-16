@@ -40,6 +40,9 @@ add_message_files(
     ConfigVoxelGridFilter.msg
     ConfigWaypointFollower.msg
     ConfigWaypointReplanner.msg
+
+    #saiko_car_ware add
+    ConfigGnssLocalizer.msg
 )
 
 generate_messages(

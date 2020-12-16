@@ -66,6 +66,9 @@ add_message_files(
     WaypointState.msg
     GnssSurfaceSpeed.msg
     GnssStandardDeviation.msg
+
+    #saiko_car_ware add
+    GnssToBaselink.msg
 )
 
 add_service_files(
