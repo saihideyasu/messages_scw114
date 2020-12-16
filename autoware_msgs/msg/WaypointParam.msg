@@ -1,0 +1,90 @@
+int8 SIGNAL_STOP_LINE_NONE = 0
+int8 SIGNAL_STOP_LINE_NORMAL = 1
+int8 SIGNAL_STOP_LINE_REGULAR_TIME = 2
+
+Header header
+uint32 id
+float32 weight
+int32 blinker
+int32 feat_proj_x
+int32 feat_proj_y
+int32 velocity_KPPlus
+int32 velocity_KPMinus
+int32 velocity_punchPlus
+int32 velocity_punchMinus
+int32 velocity_windowPlus
+int32 velocity_windowMinus
+float64 drive_stroke
+float64 brake_stroke
+int16 mb_pedal
+int32 pause
+int32 pauseGroup
+float32 vgf_leafsize
+float32 vgf_measurement_range
+# ExtractedPosition[] signals
+int16 microbus_pedal
+int16 microbus_angle
+int8 automatic_door
+int8 signal_stop_line
+float64 temporary_stop_line
+float64 temporary_fixed_velocity
+string period_signal_time_first
+float64 period_signal_time_step_green
+float64 period_signal_time_step_yellow
+float64 period_signal_time_step_red
+int8 fusion_select
+float64 steer_correction
+float32 lookahead_ratio
+float32 minimum_lookahead_distance
+float32 lookahead_ratio_magn
+int8 steer_pid_on
+float64 ndt_yaw_correction
+float64 gnss_yaw_correction
+int32 localizer_check
+int32 accel_stroke_offset
+float64 temporary_deceleration
+float64 accel_avoidance_distance_min
+float64 stop_stroke_max
+float64 accel_stroke_max
+float64 k_accel_p_velocity
+float64 k_accel_i_velocity
+float64 k_accel_d_velocity
+float64 k_brake_p_velocity
+float64 k_brake_i_velocity
+float64 k_brake_d_velocity
+int8 in_accel_mode
+int8 in_brake_mode
+int8 use_stopper_distance
+float64 stopper_distance1
+float64 stopper_distance2
+float64 stopper_distance3
+int8 detection_use_point_cloud
+int8 detection_use_point_pillar
+int8 detection_use_mobileye
+float64 steer_limit_function_select_th
+float64 steer_speed_limit1_left
+float64 steer_speed_limit1_right
+float64 steer_speed_limit2_left
+float64 steer_speed_limit2_right
+float64 steer_deg
+float64 steer_deg_acc
+float64 obstacle_deceleration
+float64 lane_rule_deceleration
+float32 position_adjustment_magn
+float64 curve_rate
+float64 misalignment_with_base
+uint16 intersection_id #交差点ID SIP用
+uint8 routes_id #方路ID SIP用
+uint8 blue_arrow_flag #矢印信号を使用するか SIP用
+float64 accel_stroke_step_max #accel_strokeの最大値
+float64 accel_stroke_step_min #accel_strokeの最小値
+float64 brake_stroke_step_max #brake_strokeの最大値
+float64 brake_stroke_step_min #brake_strokeの最小値
+float64 pitch #前の経路とのpitch
+int32 mpc_prediction_horizon #mpc_followerのprediction_horizon
+int32 mpc_moving_average_number_of_times #mpc_followerのmoving_average_number_of_times
+int32 mpc_curvature_smoothing_number #mpc_followerのcurvature_smoothing_number
+float64 mpc_ctrl_period #mpc_followerの処理周期を変更（小さいほど速い） カーブ対策
+float64 mpc_wheelbase #mpc_followerのwheelbase値を変更 小さくするとカーブの追従性が上がる
+
+#LiesseXZB70MParam liesse

@@ -64,11 +64,13 @@ add_message_files(
     VscanTrackedArray.msg
     Waypoint.msg
     WaypointState.msg
-    GnssSurfaceSpeed.msg
-    GnssStandardDeviation.msg
 
     #saiko_car_ware add
+    GnssSurfaceSpeed.msg
+    GnssStandardDeviation.msg
     GnssToBaselink.msg
+    LocalizerMatchStat.msg
+    WaypointParam.msg
 )
 
 add_service_files(
