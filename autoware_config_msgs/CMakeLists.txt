@@ -43,6 +43,7 @@ add_message_files(
 
     #saiko_car_ware add
     ConfigGnssLocalizer.msg
+    ConfigCanOdometry.msg
 )
 
 generate_messages(

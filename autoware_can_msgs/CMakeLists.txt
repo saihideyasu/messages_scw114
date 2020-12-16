@@ -12,6 +12,11 @@ add_message_files(
     CANData.msg
     CANInfo.msg
     CANPacket.msg
+
+    #add saiko_car_ware
+    MicroBusCan501.msg
+    MicroBusCan502.msg
+    MicroBusCan503.msg
 )
 
 generate_messages(
