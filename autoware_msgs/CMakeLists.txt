@@ -64,6 +64,8 @@ add_message_files(
     VscanTrackedArray.msg
     Waypoint.msg
     WaypointState.msg
+    GnssSurfaceSpeed.msg
+    GnssStandardDeviation.msg
 )
 
 add_service_files(
