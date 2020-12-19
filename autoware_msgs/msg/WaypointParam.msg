@@ -86,5 +86,4 @@ int32 mpc_moving_average_number_of_times #mpc_followerのmoving_average_number_o
 int32 mpc_curvature_smoothing_number #mpc_followerのcurvature_smoothing_number
 float64 mpc_ctrl_period #mpc_followerの処理周期を変更（小さいほど速い） カーブ対策
 float64 mpc_wheelbase #mpc_followerのwheelbase値を変更 小さくするとカーブの追従性が上がる
-
-#LiesseXZB70MParam liesse
+LiesseXZB70MParam liesse #liesse用パラメーター

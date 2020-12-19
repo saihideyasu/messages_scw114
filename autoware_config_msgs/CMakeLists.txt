@@ -45,6 +45,14 @@ add_message_files(
     ConfigGnssLocalizer.msg
     ConfigCanOdometry.msg
     ConfigLocalizerSwitch.msg
+    ConfigMicrobusPseudoCanPublisher.msg
+    ConfigMicroBusCan.msg
+    ConfigTemporaryStopper.msg
+    ConfigCurrentVelocityConversion.msg
+    ConfigEstimateToBaselink.msg
+    ConfigLookAheadRatioMagn.msg
+    ConfigVelocitySet111.msg
+    ConfigVelocitySet111SCW.msg
 )
 
 generate_messages(

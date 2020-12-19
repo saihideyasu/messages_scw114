@@ -17,6 +17,13 @@ add_message_files(
     MicroBusCan501.msg
     MicroBusCan502.msg
     MicroBusCan503.msg
+    MicroBusPseudoOperation.msg
+    MicroBusPseudoParams.msg
+    MicroBusCanSenderStatus.msg
+    MicroBusCanVelocityParam.msg
+    MicroBusSHHV.msg
+    MicroBusSHHVArrange.msg
+    MicroBusSPPM.msg
 )
 
 generate_messages(

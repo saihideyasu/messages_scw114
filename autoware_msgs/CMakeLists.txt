@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   sensor_msgs
   std_msgs
+  mobileye_560_660_msgs
 )
 
 add_message_files(
@@ -71,6 +72,12 @@ add_message_files(
     GnssToBaselink.msg
     LocalizerMatchStat.msg
     WaypointParam.msg
+    StopperDistance.msg
+    DifferenceToWaypointDistance.msg
+    SolarDirection.msg
+    LiesseXZB70MParam.msg
+    LinearArray.msg
+    MobileyeObstacle.msg
 )
 
 add_service_files(
@@ -83,6 +90,7 @@ generate_messages(
     jsk_recognition_msgs
     sensor_msgs
     std_msgs
+    mobileye_560_660_msgs
 )
 
 catkin_package(
