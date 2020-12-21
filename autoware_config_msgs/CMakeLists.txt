@@ -53,6 +53,7 @@ add_message_files(
     ConfigLookAheadRatioMagn.msg
     ConfigVelocitySet111.msg
     ConfigVelocitySet111SCW.msg
+    ConfigMicroBusCan111SCW.msg
 )
 
 generate_messages(
