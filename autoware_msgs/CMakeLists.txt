@@ -78,6 +78,7 @@ add_message_files(
     LiesseXZB70MParam.msg
     LinearArray.msg
     MobileyeObstacle.msg
+    SteerOverwrite.msg
 )
 
 add_service_files(
