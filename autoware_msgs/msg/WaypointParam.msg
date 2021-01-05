@@ -86,6 +86,6 @@ int32 mpc_moving_average_number_of_times #mpc_followerのmoving_average_number_o
 int32 mpc_curvature_smoothing_number #mpc_followerのcurvature_smoothing_number
 float64 mpc_ctrl_period #mpc_followerの処理周期を変更（小さいほど速い） カーブ対策
 float64 mpc_wheelbase #mpc_followerのwheelbase値を変更 小さくするとカーブの追従性が上がる
-float64 steer_overwrite #-100000以上ならsteerをこの値で上書き
+float64 steer_override #-100000以上ならsteerをこの値で上書き
 int8 mpc_target_input #1ならvehicle_statusのangleをtarget値にする
 LiesseXZB70MParam liesse #liesse用パラメーター
