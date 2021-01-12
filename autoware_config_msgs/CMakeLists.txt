@@ -56,6 +56,7 @@ add_message_files(
     ConfigMicroBusCan111SCW.msg
     ConfigMileagePublisher.msg
     ConfigWaypointFileMove.msg
+    ConfigCmdSelector.msg
 )
 
 generate_messages(
