@@ -35,6 +35,7 @@ int16 brake_stroke_offset
 float64 gnss_lat_limit
 float64 gnss_lon_limit
 float64 gnss_alt_limit
+float64 gnss_yaw_limit
 float64 acceptable_velocity_variation
 float64 ndt_gnss_min_distance_limit
 float64 ndt_gnss_max_distance_limit
