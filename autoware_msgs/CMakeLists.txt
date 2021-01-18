@@ -80,6 +80,7 @@ add_message_files(
     MobileyeObstacle.msg
     SteerOverride.msg
     AutoMileage.msg
+    ImuValues.msg
 )
 
 add_service_files(
