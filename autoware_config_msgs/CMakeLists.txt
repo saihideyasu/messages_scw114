@@ -57,6 +57,8 @@ add_message_files(
     ConfigMileagePublisher.msg
     ConfigWaypointFileMove.msg
     ConfigCmdSelector.msg
+    ConfigStraightLineFix.msg
+    ConfigPeriodSignal.msg
 )
 
 generate_messages(
