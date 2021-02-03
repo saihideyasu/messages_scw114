@@ -1,0 +1,9 @@
+Header header
+float32 daytime_green_lower
+float32 daytime_green_upper
+float32 daytime_yellow_lower
+float32 daytime_yellow_upper
+float32 daytime_red_lower
+float32 daytime_red_upper
+bool publish_mask
+bool display_superimpose

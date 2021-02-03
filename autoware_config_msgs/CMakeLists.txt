@@ -59,6 +59,7 @@ add_message_files(
     ConfigCmdSelector.msg
     ConfigStraightLineFix.msg
     ConfigPeriodSignal.msg
+    ConfigRegionTlr.msg
 )
 
 generate_messages(
