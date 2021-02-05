@@ -5,5 +5,6 @@ float32 daytime_yellow_lower
 float32 daytime_yellow_upper
 float32 daytime_red_lower
 float32 daytime_red_upper
+float32 circle_level_threshold
 bool publish_mask
 bool display_superimpose
