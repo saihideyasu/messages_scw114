@@ -79,6 +79,7 @@ add_message_files(
     LinearArray.msg
     MobileyeObstacle.msg
     SteerOverride.msg
+    DriveOverride.msg
     AutoMileage.msg
     ImuValues.msg
 )

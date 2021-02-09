@@ -57,3 +57,4 @@ float64 brake_stroke_step_max
 float64 brake_stroke_step_min
 float64 accel_stroke_adjust_th
 float64 brake_stroke_adjust_th
+int16 pedal_center_voltage
