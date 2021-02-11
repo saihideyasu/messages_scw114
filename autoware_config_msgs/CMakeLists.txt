@@ -60,6 +60,8 @@ add_message_files(
     ConfigStraightLineFix.msg
     ConfigPeriodSignal.msg
     ConfigRegionTlr.msg
+    ConfigWaypointAdjustment.msg
+    ConfigTravelRouteRegistration.msg
 )
 
 generate_messages(

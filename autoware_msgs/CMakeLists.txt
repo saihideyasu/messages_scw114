@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   std_msgs
   mobileye_560_660_msgs
+  geometry_msgs
 )
 
 add_message_files(
