@@ -4,6 +4,7 @@ int32 gid
 int32 lid
 geometry_msgs/PoseStamped pose
 geometry_msgs/TwistStamped twist
+
 DTLane dtlane
 int32 change_flag
 WaypointState wpstate

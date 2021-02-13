@@ -89,5 +89,9 @@ float64 mpc_wheelbase #mpc_followerのwheelbase値を変更 小さくすると�
 float64 steer_override #-100000以上ならsteerをこの値で上書き
 int8 mpc_target_input #1ならvehicle_statusのangleをtarget値にする
 int8 cmd_select #twist_rawとctrl_rawの担当ノードを選択  mpc=1 pure_pursuit=2
+geometry_msgs/Pose global_pose
+geometry_msgs/Pose history_pose
+geometry_msgs/Twist global_twist
+geometry_msgs/Twist history_twist
 geometry_msgs/Pose travel_waypoint #この経路情報で走った際の実際の走行経路
 LiesseXZB70MParam liesse #liesse用パラメーター
