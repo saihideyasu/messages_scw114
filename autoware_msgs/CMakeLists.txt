@@ -83,6 +83,7 @@ add_message_files(
     DriveOverride.msg
     AutoMileage.msg
     ImuValues.msg
+    WaypointsSerialNumLaunch.msg
 )
 
 add_service_files(
