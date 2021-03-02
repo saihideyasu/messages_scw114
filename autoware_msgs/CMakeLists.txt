@@ -84,6 +84,7 @@ add_message_files(
     AutoMileage.msg
     ImuValues.msg
     WaypointsSerialNumLaunch.msg
+    NmeaArray.msg
 )
 
 add_service_files(
