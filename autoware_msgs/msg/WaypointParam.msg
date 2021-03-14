@@ -70,7 +70,8 @@ float64 steer_deg
 float64 steer_deg_acc
 float64 obstacle_deceleration
 float64 lane_rule_deceleration
-float32 position_adjustment_magn
+float32 position_adjustment_magn #この数値だけpositionのy値を移動させる
+float32 avoid_adjustment_magn #この数値だけpositionのy値を移動させる(対向車回避用)
 float64 curve_rate
 float64 misalignment_with_base
 uint16 intersection_id #交差点ID SIP用
