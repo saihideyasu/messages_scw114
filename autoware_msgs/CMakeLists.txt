@@ -85,6 +85,9 @@ add_message_files(
     ImuValues.msg
     WaypointsSerialNumLaunch.msg
     NmeaArray.msg
+    NdtPoseAndRTKPose.msg
+    AvoidanceLaneInfo.msg
+    AvoidanceLaneInfoList.msg
 )
 
 add_service_files(

@@ -91,4 +91,5 @@ int8 mpc_target_input #1ならvehicle_statusのangleをtarget値にする
 int8 cmd_select #twist_rawとctrl_rawの担当ノードを選択  mpc=1 pure_pursuit=2
 geometry_msgs/Twist global_twist #globalの速度情報
 geometry_msgs/Pose travel_waypoint #この経路情報で走った際の実際の走行経路
+float32 avoid_adjustment_magn #この数値だけpositionのy値を移動させる(対向車回避用)
 LiesseXZB70MParam liesse #liesse用パラメーター
