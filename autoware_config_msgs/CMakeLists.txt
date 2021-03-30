@@ -62,6 +62,7 @@ add_message_files(
     ConfigRegionTlr.msg
     ConfigWaypointAdjustment.msg
     ConfigTravelRouteRegistration.msg
+    ConfigClothoidAvoidance.msg
 )
 
 generate_messages(
